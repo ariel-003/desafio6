@@ -1,0 +1,65 @@
+body{
+    font-family: calibri;
+}
+#formulario{
+    padding: 5vh;
+}
+#form-products input{
+    width: 30vw;
+    margin: 2vh;
+    padding: 1vh;
+}
+#form-products button{
+    padding: 1vh;
+}
+
+#tabla{
+    padding: 5vh;
+}
+#tabla button{
+    border: 1px solid black;
+    padding: 1vh;
+}
+#tabla table{
+    width: 300px;
+    border: 1px solid black;
+}
+table td, th{
+    padding: 1vh 3vw;
+    border: 1px solid black;
+}
+table tr td img{
+    width: 50px;
+    height: 50px;
+}
+#msg{
+    padding: 5vh;
+}
+.formulario{
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+.formulario .input{
+    margin: 1vh 0;
+}
+#msg-history{
+    max-width: 600px;
+    background-color: rgba(0, 0, 0, 0.099);
+    border-radius: 10px;
+    padding: 1vh;
+}
+.msg{
+    display: flex;
+}
+.email{
+    color: rgb(28, 57, 96);
+}
+.fyh{
+    color: rgb(51, 51, 51);
+}
+.message{
+    font-style: italic;
+    font-weight: bold;
+    margin: auto .5vw;
+}
